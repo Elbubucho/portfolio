@@ -87,3 +87,28 @@ function showProjectDetails (){
     });
 }
 showProjectDetails();
+
+/* Formulaire via methode AJAX, utiliser la variable result et l'integrer dans une div pour pouvoir l'afficher dans le HTML
+
+async function PhpResponse() {
+    
+
+     let form = document.querySelector('.form');
+
+    form.addEventListener('submit' , (event) =>{
+    event.preventDefault();
+
+    let fullForm = new FormData(form);
+
+    const response = await fetch("contact.php", {
+        method: "POST",
+        body: fullForm
+    });
+
+    let result = await response.text();
+    console.log(result);
+
+     });
+
+    }
+     */
