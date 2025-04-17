@@ -347,8 +347,7 @@
                     plaisir de vous répondre !</p>
             </div>
 
-            <form action="https://formsubmit.co/valmax.sala@gmail.com" class="form" method="post"
-                data-redirect="https://elbubucho.github.io/portfolio/">
+            <form action="https://formsubmit.co/valmax.sala@gmail.com" class="form" method="post">
                 <!--J'ai mis le fichier php pour apprendre a utiliser la fonction mail, mais puisque hebergé sur github jutilise-->
 
                 <label for="fistname">
@@ -362,6 +361,7 @@
                 </label>
                 <textarea name="message" id="message" placeholder="Message"></textarea>
                 <input type="submit" class="btn" value="Envoyer">
+                <input type="hidden" name="_next" value="https://elbubucho.github.io/portfolio/">
             </form>
         </div>
     </section>
