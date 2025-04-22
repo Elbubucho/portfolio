@@ -88,7 +88,7 @@ function showProjectDetails() {
 }
 showProjectDetails();
 
-/* Formulaire via methode AJAX pour contact.php, utiliser la variable result et l'integrer dans une div pour pouvoir l'afficher dans le HTML
+/* Formulaire via methode AJAX pour utiliser contact.php de manière asynchrone , utiliser la variable result et l'integrer dans une div pour pouvoir l'afficher dans le HTML
 
 async function PhpResponse() {
     
