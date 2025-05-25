@@ -559,6 +559,15 @@ section {
     text-align: center;
 }
 
+.dl_link {
+    color:black;
+    font-style: oblique 40deg;
+}
+
+.dl_link:hover {
+    color:#333333;
+}
+
 .parcours .dl_link {
     display: inline-block;
     padding: 10px 20px;
