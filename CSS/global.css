@@ -422,13 +422,14 @@ section {
     background: #E3F2FD;
     text-transform: uppercase;
     position: relative;
+    height: 150px;
     
 }
 
 .card_image {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
+    width: 100%;
+    height: 55px;
+    object-fit: cover;
 }
 
 .card_inner {
@@ -478,11 +479,18 @@ section {
     .portfolio-filter .grid_item {
         max-width: 25%;
     }
-
+    .card {
+        height:auto;
+    }
     .portfolio .grid_item {
         max-width: 33.3333%;
         margin-bottom: 0;
     }
+    .card_image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+}
 
 }
 
