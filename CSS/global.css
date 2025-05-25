@@ -422,6 +422,13 @@ section {
     background: #E3F2FD;
     text-transform: uppercase;
     position: relative;
+    
+}
+
+.card_image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 .card_inner {
@@ -559,12 +566,12 @@ section {
     text-align: center;
 }
 
-.dl_link {
+.modal_link {
     color:black;
     font-style: oblique 40deg;
 }
 
-.dl_link:hover {
+.modal_link:hover {
     color:#333333;
 }
 
