@@ -526,6 +526,12 @@ section {
 
 .modal img {
     margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+
+#listen_together_image{
+    width:80%;
+    height:100%;
 }
 
 .modal_title {
